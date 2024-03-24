@@ -24,8 +24,8 @@ form input{
 }
 form button {
     padding: 10px 25px;
-    background-color: rgb(0, 242, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(242, 255, 0);
+    color: rgb(8, 0, 0);
     border: none;
     cursor: pointer;
 }
@@ -55,4 +55,7 @@ form button {
 button{
     display: table;
     margin: auto;
+}
+#call{
+    margin-top: 5px;
 }

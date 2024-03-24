@@ -44,19 +44,19 @@ let displayData = () => {
     finalData += `<div class="items">
             <span onclick='removeData(${i})'>&times;</span>
 
-            <h5>Name</h5>
+            <h5>First Name</h5>
             <div>${element.name}</div>
 
-            <h5>Name</h5>
+            <h5>Last Name</h5>
             <div>${element.lname}</div>
 
-            <h5>Name</h5>
+            <h5>Country</h5>
             <div>${element.cname}</div>
 
             <h5>Email</h5>
             <div>${element.email}</div>
 
-            <h5>Phone</h5>
+            <h5>Phone No.</h5>
             <div>${element.phone}</div>
         </div>`;
   });
